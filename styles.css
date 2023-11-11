@@ -1,0 +1,36 @@
+body {
+  background-color: #030303;
+  font-family: "Bebas Neue", sans-serif;
+  color: #FFFFFF;
+}
+
+.content img {
+  width: width 100%;
+  margin-bottom: 15px;
+}
+
+button {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #FF2F28;
+  color: #FFFFFF;
+  font-size: font-size 15px;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #FF2F28;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.modal-container p {
+  color: red;
+  font-family: Helvetica;
+}
+.modal-container h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

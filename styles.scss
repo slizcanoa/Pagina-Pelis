@@ -1,0 +1,44 @@
+// variables
+$color-principal : #030303;
+$color-letra :#FFFFFF;
+$color-bordes :#FF2F28;
+$tamaño-fuente: font-size 15px;
+$tamaño-imagen: width 100%;
+
+body {
+    background-color:$color-principal;
+    font-family: 'Bebas Neue', sans-serif;
+    color:$color-letra;
+}
+.content img {
+    width: $tamaño-imagen;
+    margin-bottom: 15px;
+
+}
+button {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #FF2F28;
+    color: #FFFFFF;
+    font-size: $tamaño-fuente;
+    cursor: pointer;
+    
+    
+}
+hr{
+    border: 1px solid $color-bordes;
+    width: 50%;
+    margin-bottom: 40px;
+}
+//Anidacion 
+.modal-container{
+    p{
+       color: red;
+       font-family:Helvetica;
+    }
+    h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: underline;
+    }
+
+}
